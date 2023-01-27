@@ -2,12 +2,6 @@ controllers:
     resource: ../src/Controller/
     type: attribute
 
-share:
-    path: /check_certificat/{token}
-    controller: App\Controller\StudentController::check_certificat
-    requirements:
-        token: .+
-
 # index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
